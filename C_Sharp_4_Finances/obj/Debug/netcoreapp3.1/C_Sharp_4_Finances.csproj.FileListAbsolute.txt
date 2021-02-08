@@ -1,0 +1,13 @@
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\bin\Debug\netcoreapp3.1\C_Sharp_4_Finances.exe
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\bin\Debug\netcoreapp3.1\C_Sharp_4_Finances.deps.json
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\bin\Debug\netcoreapp3.1\C_Sharp_4_Finances.runtimeconfig.json
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\bin\Debug\netcoreapp3.1\C_Sharp_4_Finances.runtimeconfig.dev.json
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\bin\Debug\netcoreapp3.1\C_Sharp_4_Finances.dll
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\bin\Debug\netcoreapp3.1\C_Sharp_4_Finances.pdb
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\obj\Debug\netcoreapp3.1\C_Sharp_4_Finances.csprojAssemblyReference.cache
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\obj\Debug\netcoreapp3.1\C_Sharp_4_Finances.csproj.CoreCompileInputs.cache
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\obj\Debug\netcoreapp3.1\C_Sharp_4_Finances.AssemblyInfoInputs.cache
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\obj\Debug\netcoreapp3.1\C_Sharp_4_Finances.AssemblyInfo.cs
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\obj\Debug\netcoreapp3.1\C_Sharp_4_Finances.dll
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\obj\Debug\netcoreapp3.1\C_Sharp_4_Finances.pdb
+E:\_VisualStudioProjects\C_Sharp_4\C_Sharp_4_Finances\C_Sharp_4_Finances\obj\Debug\netcoreapp3.1\C_Sharp_4_Finances.genruntimeconfig.cache
