@@ -45,6 +45,7 @@ namespace C_Sharp_4_Finances
             #endregion
 
             int[] arrayCosts = new int[12], arrayIncome = new int[12], arrayProfit = new int[12], arrayProfitSort = new int[12];
+            int[] arrayWorstProfit = new int[3] {0,0,0};
             int countPositiveProfit = 0;
             string lowProfitMonth = "";
             Random r = new Random();
@@ -57,6 +58,9 @@ namespace C_Sharp_4_Finances
             {
                 arrayIncome[i] = r.Next(100_000, 200_000);
                 arrayCosts[i] = r.Next(100_000, 200_000);
+
+                //arrayIncome[i] = 0;
+                //arrayCosts[i] = 0;
 
                 arrayProfit[i] = arrayIncome[i] - arrayCosts[i];
 
@@ -74,7 +78,21 @@ namespace C_Sharp_4_Finances
             {
                 for (int j = 0; j < 12; j++)
                 {
-                    if (arrayProfitSort[i] == arrayProfit[j])
+                    if (arrayWorstProfit[i] > arrayProfitSort[j] && arrayProfitSort[j] != 0)
+                    {
+                        if (Array.IndexOf(arrayWorstProfit, arrayProfitSort[j]) != -1) continue;
+                        arrayWorstProfit[i] = arrayProfitSort[j];
+                    }
+                }
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                if (i > 0 && arrayWorstProfit[i] == arrayWorstProfit[i - 1]) continue;
+
+                for (int j = 0; j < 12; j++)
+                {
+                    if (arrayWorstProfit[i] == arrayProfit[j])
                     {
                         lowProfitMonth = (lowProfitMonth == "") ? lowProfitMonth + " " + (j + 1) : lowProfitMonth + ", " + (j + 1);
                     }
